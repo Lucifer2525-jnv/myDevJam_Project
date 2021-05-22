@@ -109,7 +109,15 @@ while True:
         Music = os.listdir(codepath)
         os.startfile(os.path.join(codepath,Music[0]))
         time.sleep(3)
-
+        
+   elif'play video' in query:
+        speech('ok, here is your video')
+        yellowled()
+        codepath = 'C:\\Users\\Video'
+        Video = os.listdir(codepath)
+        os.startfile(os.path.join(codepath,Video[0]))
+        time.sleep(3)
+        
     elif'google' in query:
         speech("wait let me google it")
         yellowled()
