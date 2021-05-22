@@ -116,15 +116,15 @@ while True:
         webbrowser.open(query)
         time.sleep(3)
 
-    elif'red light off' in query:
-        speech('turning red light off')
+    elif'blue light off' in query:
+        speech('turning blue light off')
         yellowled()
         board.digital[10].write('0'.encode('ascii'))
         time.sleep(3)
 
-    elif'red light on' in query:
+    elif'blue light on' in query:
         yellowled()
-        speech('turning red light on')
+        speech('turning blue light on')
         board.digital[10].write('1'.encode('ascii'))
         time.sleep(3)
 
