@@ -7,3 +7,7 @@ Reason what we are thinking is probably there is an issue regarding code sended 
 
 
 Also we have made a Sensors reading plotter using Django over local browser to link it with our automation pythonScript inorder to make it a complete system where vital senors(like medical) can be linked and monitored by user.
+
+
+Here is a demo video of our project
+(https://drive.google.com/file/d/1EycLQMWLEypgM3KqHYJoM7w1nOSABWM3/view?usp=drivesdk)
